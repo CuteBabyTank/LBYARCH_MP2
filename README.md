@@ -189,11 +189,12 @@ This experiment demonstrates that hand-written assembly provides significant adv
 
 ## Screenshots
 
-### Build and Execution
-![Build and Execution](screenshots/build_execution.png)
+###  PROCESS VERIFICATION
+![PROCESS VERIFICATION](screenshots/PROCESS_VERIFICATION.png)
 
-### Performance Results
-![Performance Results](screenshots/performance_results.png)
+### Program Output With Correctness Check
+![Output1](screenshots/Output1.png)
+![Output2](screenshots/Output2.png)
 
 ---
 
