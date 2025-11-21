@@ -138,7 +138,7 @@ At the largest vector size (2^28 = 268 million doubles = approximately 2GB per v
 
 ### Conclusion
 
-This experiment demonstrates that hand-written assembly provides significant advantages when compiler optimizations are disabled (debug mode: 1.30x-2.00x speedup), but modern C compilers are highly sophisticated—in release mode, they generate code that rivals or matches hand-optimized assembly for straightforward operations. Memory bandwidth becomes the ultimate bottleneck at large scales, where both implementations converge to identical performance as they hit hardware memory limits. For production code performing simple operations like DAXPY, well-written C code with compiler optimizations is sufficient. Hand-written assembly is best reserved for critical performance bottlenecks where compiler-generated code demonstrably falls short.
+This experiment demonstrates that hand-written assembly provides significant advantages when compiler optimizations are disabled (debug mode: 1.30x-2.00x speedup), but modern C compilers are highly sophisticatedÂ—in release mode, they generate code that rivals or matches hand-optimized assembly for straightforward operations. Memory bandwidth becomes the ultimate bottleneck at large scales, where both implementations converge to identical performance as they hit hardware memory limits. For production code performing simple operations like DAXPY, well-written C code with compiler optimizations is sufficient. Hand-written assembly is best reserved for critical performance bottlenecks where compiler-generated code demonstrably falls short.
 
 ---
 
@@ -199,7 +199,7 @@ This experiment demonstrates that hand-written assembly provides significant adv
 ---
 
 ## Video Demonstration
-[Watch the video demonstration](https://youtu.be/your_video_link)
+[[Watch the video demonstration](https://youtu.be/your_video_link](https://drive.google.com/drive/folders/1J5yvHkiL2m2nf8oraMm52hWT5ExgPJB7?usp=sharing))
 
 ---
 
